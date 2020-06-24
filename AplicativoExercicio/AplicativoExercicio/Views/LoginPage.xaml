@@ -8,10 +8,13 @@
 
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="10,10,10,10">
-               <Entry Placeholder="Email"/>
+        <Image Source="emoji.png" VerticalOptions="Start" HeightRequest="250"  Margin="0,3,0,0"/>
+        
+        <Entry Placeholder="Email"/>
                <Entry Placeholder=" Senha"/>
-               <Button Text="Entrar" BackgroundColor="#FF69B4" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Clicked="Button_Clicked" />
-           
+        <Button Text="Entrar" BackgroundColor="	#FFFF00" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="20" Clicked="Button_Clicked" />
+        <Label Text =" ou "  HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+        <Image Source="facebook.png" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" HeightRequest="60"/>
     </StackLayout>
 
   
