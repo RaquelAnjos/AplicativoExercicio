@@ -15,7 +15,7 @@
         <DatePicker />
         <Entry Placeholder="Descrição"/>
         <StackLayout Orientation="Horizontal">
-            <Label Text="Nuº Integrantes"/>
+            <Label Text="Nº Integrantes"/>
             <Entry HorizontalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
